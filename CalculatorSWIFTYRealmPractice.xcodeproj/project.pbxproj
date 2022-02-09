@@ -13,6 +13,7 @@
 		B3E02BB927B3A33100ADA9F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E02BB827B3A33100ADA9F4 /* Preview Assets.xcassets */; };
 		B3E02BC027B3AA9600ADA9F4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BBF27B3AA9600ADA9F4 /* Task.swift */; };
 		B3E02BC427B3AC8400ADA9F4 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BC327B3AC8400ADA9F4 /* TaskRowView.swift */; };
+		B3E02BC627B3B33E00ADA9F4 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BC527B3B33E00ADA9F4 /* TaskListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B3E02BB827B3A33100ADA9F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3E02BBF27B3AA9600ADA9F4 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		B3E02BC327B3AC8400ADA9F4 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		B3E02BC527B3B33E00ADA9F4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B3E02BB727B3A33100ADA9F4 /* Preview Content */,
 				B3E02BBF27B3AA9600ADA9F4 /* Task.swift */,
 				B3E02BC327B3AC8400ADA9F4 /* TaskRowView.swift */,
+				B3E02BC527B3B33E00ADA9F4 /* TaskListView.swift */,
 			);
 			path = CalculatorSWIFTYRealmPractice;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				B3E02BB427B3A32800ADA9F4 /* ContentView.swift in Sources */,
 				B3E02BC027B3AA9600ADA9F4 /* Task.swift in Sources */,
+				B3E02BC627B3B33E00ADA9F4 /* TaskListView.swift in Sources */,
 				B3E02BC427B3AC8400ADA9F4 /* TaskRowView.swift in Sources */,
 				B3E02BB227B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift in Sources */,
 			);
