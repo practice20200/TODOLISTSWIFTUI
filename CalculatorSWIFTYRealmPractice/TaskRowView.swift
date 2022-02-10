@@ -31,8 +31,8 @@ struct TaskRowView: View {
     }
 }
 
-struct TaskRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        TaskRowView(task: Task(id: "1", title: "swimmimg", completed: false))
-    }
-}
+//struct TaskRowView_Previews: PreviewProvider {
+    //static var previews: some View {
+   //     TaskRowView(task: Task(id: "1", title: "swimmimg", completed: false))
+  //  }
+//}

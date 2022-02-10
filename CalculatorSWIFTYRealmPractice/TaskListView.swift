@@ -9,11 +9,11 @@ import SwiftUI
 
 struct TaskListView: View {
 
-    private var mockTasks = [
-        Task(id: "1", title: "task1", completed: false),
-        Task(id: "2", title: "task2", completed: false),
-        Task(id: "3", title: "task3", completed: false),
-        Task(id: "4", title: "task4", completed: false)
+    private var mockTasks : [Task] = [
+        //Task(id: "1", title: "task1", completed: false),
+        //Task(id: "2", title: "task2", completed: false),
+        //Task(id: "3", title: "task3", completed: false),
+        //Task(id: "4", title: "task4", completed: false)
     ]
     
     var body: some View {

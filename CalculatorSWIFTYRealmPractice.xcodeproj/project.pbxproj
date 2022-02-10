@@ -17,6 +17,7 @@
 		B3E02BC927B3B6BC00ADA9F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B3E02BC827B3B6BC00ADA9F4 /* Realm */; };
 		B3E02BCB27B3B6BC00ADA9F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B3E02BCA27B3B6BC00ADA9F4 /* RealmSwift */; };
 		B3E02BCD27B496FF00ADA9F4 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BCC27B496FE00ADA9F4 /* AddTaskView.swift */; };
+		B3E02BCF27B4A13600ADA9F4 /* TaskObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BCE27B4A13400ADA9F4 /* TaskObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		B3E02BC327B3AC8400ADA9F4 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
 		B3E02BC527B3B33E00ADA9F4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		B3E02BCC27B496FE00ADA9F4 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		B3E02BCE27B4A13400ADA9F4 /* TaskObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				B3E02BC327B3AC8400ADA9F4 /* TaskRowView.swift */,
 				B3E02BC527B3B33E00ADA9F4 /* TaskListView.swift */,
 				B3E02BCC27B496FE00ADA9F4 /* AddTaskView.swift */,
+				B3E02BCE27B4A13400ADA9F4 /* TaskObject.swift */,
 			);
 			path = CalculatorSWIFTYRealmPractice;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				B3E02BB427B3A32800ADA9F4 /* ContentView.swift in Sources */,
 				B3E02BC027B3AA9600ADA9F4 /* Task.swift in Sources */,
+				B3E02BCF27B4A13600ADA9F4 /* TaskObject.swift in Sources */,
 				B3E02BC627B3B33E00ADA9F4 /* TaskListView.swift in Sources */,
 				B3E02BCD27B496FF00ADA9F4 /* AddTaskView.swift in Sources */,
 				B3E02BC427B3AC8400ADA9F4 /* TaskRowView.swift in Sources */,
