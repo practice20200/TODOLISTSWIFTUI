@@ -18,6 +18,7 @@
 		B3E02BCB27B3B6BC00ADA9F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B3E02BCA27B3B6BC00ADA9F4 /* RealmSwift */; };
 		B3E02BCD27B496FF00ADA9F4 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BCC27B496FE00ADA9F4 /* AddTaskView.swift */; };
 		B3E02BCF27B4A13600ADA9F4 /* TaskObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BCE27B4A13400ADA9F4 /* TaskObject.swift */; };
+		B3E02BD127B4ABFD00ADA9F4 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BD027B4ABFB00ADA9F4 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B3E02BC527B3B33E00ADA9F4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		B3E02BCC27B496FE00ADA9F4 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		B3E02BCE27B4A13400ADA9F4 /* TaskObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskObject.swift; sourceTree = "<group>"; };
+		B3E02BD027B4ABFB00ADA9F4 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				B3E02BC527B3B33E00ADA9F4 /* TaskListView.swift */,
 				B3E02BCC27B496FE00ADA9F4 /* AddTaskView.swift */,
 				B3E02BCE27B4A13400ADA9F4 /* TaskObject.swift */,
+				B3E02BD027B4ABFB00ADA9F4 /* TaskViewModel.swift */,
 			);
 			path = CalculatorSWIFTYRealmPractice;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				B3E02BCF27B4A13600ADA9F4 /* TaskObject.swift in Sources */,
 				B3E02BC627B3B33E00ADA9F4 /* TaskListView.swift in Sources */,
 				B3E02BCD27B496FF00ADA9F4 /* AddTaskView.swift in Sources */,
+				B3E02BD127B4ABFD00ADA9F4 /* TaskViewModel.swift in Sources */,
 				B3E02BC427B3AC8400ADA9F4 /* TaskRowView.swift in Sources */,
 				B3E02BB227B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift in Sources */,
 			);

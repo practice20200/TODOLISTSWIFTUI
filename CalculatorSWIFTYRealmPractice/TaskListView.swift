@@ -29,8 +29,6 @@ struct TaskListView: View {
                     
                 }
             }
-            
-            
         }
         
     }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AddTaskView: View {
     @State private var taskTitle: String = ""
+    @EnvironmentObject private var viewModel: TaskViewModel
     var body: some View {
         
         HStack(spacing: 12) {
@@ -23,7 +24,8 @@ struct AddTaskView: View {
     }
     
     private func handleSubmit(){
-         
+        viewModel.addTask(title: taskTitle)
+        taskTitle = ""
     }
     
 }

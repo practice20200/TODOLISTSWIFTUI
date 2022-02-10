@@ -11,7 +11,7 @@ import SwiftUI
 struct CalculatorSWIFTYRealmPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(TaskViewModel())
         }
     }
 }
