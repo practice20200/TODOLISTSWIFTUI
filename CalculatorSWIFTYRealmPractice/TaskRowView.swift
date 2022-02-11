@@ -30,6 +30,10 @@ struct TaskRowView: View {
                 .foregroundColor(.black)
             
             Spacer()
+            
+            Text(task.formattedDate)
+                .foregroundColor(.black)
+            
         }
         .onAppear(perform: {
             isComplete = task.completed
