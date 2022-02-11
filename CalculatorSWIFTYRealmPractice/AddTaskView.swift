@@ -16,7 +16,9 @@ struct AddTaskView: View {
             TextField("Enter an new task", text: $taskTitle)
         
             Button {
-                self.handleSubmit()
+                if !taskTitle.isEmpty{
+                    self.handleSubmit()
+                }
             }label: {
                 Image(systemName: "plus")
             }

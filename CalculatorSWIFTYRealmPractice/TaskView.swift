@@ -11,6 +11,7 @@ struct TaskView: View {
     @EnvironmentObject private var viewModel : TaskViewModel
     @Environment(\.presentationMode) var presentaionMode: Binding<PresentationMode>
     @State private var taskTitle : String = ""
+    @State private var dueDate : Date = Date()
     
     
     let task : Task
@@ -25,6 +26,8 @@ struct TaskView: View {
                     .font(.largeTitle)
                 Divider()
             }
+            
+            DatePicker("Select Date", selection: $dueDate)
             
             Button{
                 deleteAction()
@@ -41,12 +44,13 @@ struct TaskView: View {
         .padding(24)
         .onAppear {
             taskTitle = task.title
+            dueDate = task.dueDate ?? Date()
         }
         .onDisappear(perform: updateTask)
     }
     
     private func updateTask(){
-        viewModel.update(id: task.id, newTitle: taskTitle)
+        viewModel.update(id: task.id, newTitle: taskTitle, dueDate: dueDate)
     }
     
     private func deleteAction(){
