@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B34BF1ED27B5FA3F004BF3DA /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BF1EC27B5FA3F004BF3DA /* TaskView.swift */; };
+		B34BF1EF27B61263004BF3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BF1EE27B61263004BF3DA /* AppDelegate.swift */; };
 		B3E02BB227B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BB127B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift */; };
 		B3E02BB427B3A32800ADA9F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BB327B3A32800ADA9F4 /* ContentView.swift */; };
 		B3E02BB627B3A33100ADA9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E02BB527B3A33100ADA9F4 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		B34BF1EC27B5FA3F004BF3DA /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		B34BF1EE27B61263004BF3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E02BAE27B3A32800ADA9F4 /* CalculatorSWIFTYRealmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorSWIFTYRealmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E02BB127B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSWIFTYRealmPracticeApp.swift; sourceTree = "<group>"; };
 		B3E02BB327B3A32800ADA9F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				B3E02BB127B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift */,
+				B34BF1EE27B61263004BF3DA /* AppDelegate.swift */,
 				B3E02BB327B3A32800ADA9F4 /* ContentView.swift */,
 				B3E02BB527B3A33100ADA9F4 /* Assets.xcassets */,
 				B3E02BB727B3A33100ADA9F4 /* Preview Content */,
@@ -177,6 +180,7 @@
 				B3E02BCD27B496FF00ADA9F4 /* AddTaskView.swift in Sources */,
 				B3E02BD127B4ABFD00ADA9F4 /* TaskViewModel.swift in Sources */,
 				B3E02BC427B3AC8400ADA9F4 /* TaskRowView.swift in Sources */,
+				B34BF1EF27B61263004BF3DA /* AppDelegate.swift in Sources */,
 				B3E02BB227B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
