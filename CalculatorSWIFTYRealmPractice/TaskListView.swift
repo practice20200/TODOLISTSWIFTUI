@@ -9,19 +9,14 @@ import SwiftUI
 
 struct TaskListView: View {
 
-    private var mockTasks : [Task] = [
-        //Task(id: "1", title: "task1", completed: false),
-        //Task(id: "2", title: "task2", completed: false),
-        //Task(id: "3", title: "task3", completed: false),
-        //Task(id: "4", title: "task4", completed: false)
-    ]
+    @EnvironmentObject private var viewModel : TaskViewModel
     
     var body: some View {
         
         ScrollView{
             
             LazyVStack(alignment: .leading) {
-                ForEach(mockTasks, id: \.id) { task in
+                ForEach(viewModel.tasks, id: \.id) { task in
                     
                     TaskRowView(task: task)
                     Divider().padding(.leading, 20)
