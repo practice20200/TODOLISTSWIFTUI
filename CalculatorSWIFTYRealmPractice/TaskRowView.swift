@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct TaskRowView: View {
+    @EnvironmentObject private var viewModel: TaskViewModel
+    @State private var isComplete: Bool = false
+    
     let task : Task
     
     var body: some View {
         
         HStack(spacing: 8){
             Button{
+                self.toggleCompletion()
                 print("Action handler")
             }label: {
-                Image(systemName: task.completed ? "check.circle.fill" : "circle")
+                Image(systemName: isComplete ? "checkmark.circle.fill" : "circle")
                         .resizable()
                         .frame(width: 20, height: 20)
                         .foregroundColor(task.completed ? .green: .gray)
@@ -26,13 +30,19 @@ struct TaskRowView: View {
                 .foregroundColor(.black)
             
             Spacer()
-        }.padding(EdgeInsets(top: 16, leading: 20, bottom: 16, trailing: 20))
+        }
+        .onAppear(perform: {
+            isComplete = task.completed
+        })
+        .padding(EdgeInsets(top: 16, leading: 20, bottom: 16, trailing: 20))
         
     }
+    
+    private func toggleCompletion(){
+        isComplete.toggle()
+        viewModel.markComplete(id: task.id, completed: isComplete)
+    }
+    
+    
 }
 
-//struct TaskRowView_Previews: PreviewProvider {
-    //static var previews: some View {
-   //     TaskRowView(task: Task(id: "1", title: "swimmimg", completed: false))
-  //  }
-//}
