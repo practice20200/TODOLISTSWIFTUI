@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34BF1ED27B5FA3F004BF3DA /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BF1EC27B5FA3F004BF3DA /* TaskView.swift */; };
 		B3E02BB227B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BB127B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift */; };
 		B3E02BB427B3A32800ADA9F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E02BB327B3A32800ADA9F4 /* ContentView.swift */; };
 		B3E02BB627B3A33100ADA9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E02BB527B3A33100ADA9F4 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B34BF1EC27B5FA3F004BF3DA /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		B3E02BAE27B3A32800ADA9F4 /* CalculatorSWIFTYRealmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorSWIFTYRealmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E02BB127B3A32800ADA9F4 /* CalculatorSWIFTYRealmPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSWIFTYRealmPracticeApp.swift; sourceTree = "<group>"; };
 		B3E02BB327B3A32800ADA9F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				B3E02BCC27B496FE00ADA9F4 /* AddTaskView.swift */,
 				B3E02BCE27B4A13400ADA9F4 /* TaskObject.swift */,
 				B3E02BD027B4ABFB00ADA9F4 /* TaskViewModel.swift */,
+				B34BF1EC27B5FA3F004BF3DA /* TaskView.swift */,
 			);
 			path = CalculatorSWIFTYRealmPractice;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34BF1ED27B5FA3F004BF3DA /* TaskView.swift in Sources */,
 				B3E02BB427B3A32800ADA9F4 /* ContentView.swift in Sources */,
 				B3E02BC027B3AA9600ADA9F4 /* Task.swift in Sources */,
 				B3E02BCF27B4A13600ADA9F4 /* TaskObject.swift in Sources */,

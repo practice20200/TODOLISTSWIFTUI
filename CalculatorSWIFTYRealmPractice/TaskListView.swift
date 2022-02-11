@@ -18,10 +18,12 @@ struct TaskListView: View {
             LazyVStack(alignment: .leading) {
                 ForEach(viewModel.tasks, id: \.id) { task in
                     
-                    TaskRowView(task: task)
+                    NavigationLink(destination: TaskView(task: task)) {
+                        TaskRowView(task: task)
+                    }
+                    
                     Divider().padding(.leading, 20)
-                    
-                    
+
                 }
             }
         }

@@ -67,4 +67,32 @@ final class TaskViewModel: ObservableObject{
             print(error.localizedDescription)
         }
     }
+    
+    func remove(id: String){
+        do{
+         let realm = try Realm()
+         let objectId = try ObjectId(string: id)
+         if let task = realm.object(ofType: TaskObject.self, forPrimaryKey: objectId){
+             try realm.write{
+                realm.delete(task)
+             }
+        }
+        }catch{
+           
+        }
+    }
+    
+    func update(id: String, newTitle: String){
+        do{
+            let realm = try Realm()
+            let objectId = try ObjectId(string: id)
+            let task = realm.object(ofType: TaskObject.self, forPrimaryKey: objectId)
+            
+            try realm.write{
+                task?.title = newTitle
+            }
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
 }
