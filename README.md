@@ -1,4 +1,4 @@
-# CalculatorSWIFTUIPractice
+# ToDoListSWIFTUIPractice
 This app is developed for educational purpose of learning swiftUI and RealmSwift. 
 
 
